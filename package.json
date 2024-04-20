@@ -1,13 +1,10 @@
 {
   "name": "create-ol",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scaffolds an OpenLoader plugin with massive customization",
   "main": "src/index.mjs",
-  "scripts": {
-    "dev": "node src/index.js"
-  },
   "bin": {
-    "create-ol": "src/index.js"
+    "create-ol": "src/index.mjs"
   },
   "repository": {
     "type": "git",
