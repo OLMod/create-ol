@@ -1,0 +1,22 @@
+{
+  "name": "create-ol",
+  "version": "1.0.0",
+  "description": "Scaffolds an OpenLoader plugin with massive customization",
+  "main": "src/index.mjs",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "bin": {
+    "create-ol": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OLMod/create-ol"
+  },
+  "author": "OpenLoader/WorriedArrow",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "inquirer": "^9.2.8"
+  }
+}
